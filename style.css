@@ -47,7 +47,7 @@ body{
 }
 .player{
  width: 315px;
- border: 1px solid wheat;
+ border: 1px solid whitesmoke ;
  box-shadow: rgba(0, 0, 0, 0.15);
  border-radius: 5px;
  
@@ -61,4 +61,46 @@ body{
     font-weight: 300px;
     color:black;
     font-size: 15px;
+}
+.highlights{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.highlights-text{
+    width: 469px;
+    padding-right: 20px;
+    margin-left: 15px;
+    justify-content: center;
+    
+
+}
+.highlights-banner img{
+    width: 567px;
+    margin-left: 40px;
+    padding: 80px;
+}
+.high-text{
+    text-align: center;
+}
+.football{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content:space-evenly;
+
+    
+}
+.footer-banner img{
+    width: 483px;
+
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon img{
+    width: 25px;
+    
+}
+.copy-rights{
+    text-align: center;
 }

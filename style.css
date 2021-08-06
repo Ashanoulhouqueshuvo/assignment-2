@@ -1,3 +1,8 @@
+
+main{
+    background-color: white;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -38,5 +43,22 @@ body{
     
 }
 .player img{
-    width: 330px;
+    width: 315px;
+}
+.player{
+ width: 315px;
+ border: 1px solid wheat;
+ box-shadow: rgba(0, 0, 0, 0.15);
+ border-radius: 5px;
+ 
+
+}
+.player-name{
+    font-weight: 700;
+    color: seagreen;
+}
+.player-title{
+    font-weight: 300px;
+    color:black;
+    font-size: 15px;
 }

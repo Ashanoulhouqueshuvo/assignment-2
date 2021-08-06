@@ -104,3 +104,16 @@ body{
 .copy-rights{
     text-align: center;
 }
+@media only screen and (max-width:768px)  {
+
+    .wraper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .football{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
